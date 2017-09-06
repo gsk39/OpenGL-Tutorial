@@ -21,6 +21,7 @@ namespace Shader {
 	public:
 		static ProgramPtr Create(const char* vsFilename, const char* fsFilename);
 
+
 		bool UniformBlockBinding(const char* blockName, GLuint bindingPoint);
 		void UseProgram();
 		void BindTexture(GLenum unit, GLenum type, GLuint texture);
@@ -41,7 +42,6 @@ namespace Shader {
 
 	GLuint CreateProgramFromFile(const char* vsFilename, const char* fsFilename);
 
-	
 }
 
 #endif
