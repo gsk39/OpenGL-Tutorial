@@ -50,6 +50,7 @@ namespace Shader {
 			}
 		}
 
+
 		// 頂点シェーダファイル名の末尾から”.vert”を取り除いたものをプログラム名とする.
 		p->name = vsFilename;
 		p->name.resize(p->name.size() - 4);
